@@ -2,10 +2,10 @@
 
 ![Symfony image](app/public/img/symf.png)
 
-This is a training site created with Symfony
+This is a training site created with Symfony.
 
 To access this website locally you need to do the following:
-
+```
 Install PHP in your terminal.
 
 Install Composer.
@@ -19,6 +19,7 @@ Run the server with 'symfony server:start'.
 Enjoy the site through: 'https://127.0.0.1:8000'.
 
 Close server with CTRL-C.
+```
 
 Related info at:
 * https://dbwebb.se/mvc

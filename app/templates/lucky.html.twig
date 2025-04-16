@@ -1,0 +1,18 @@
+{# templates/lucky.html.twig #}
+
+{% extends "base.html.twig" %}
+
+{% block title %}Lucky{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1>Lucky</h1>
+    <div class="marg_left">
+    <p>This is your lucky animal: </p>
+    <img src="img/{{ animal }}.png" alt="Image of {{ animal }}">
+    <p>{{ animal }}</p>
+    <br>
+    </div>
+
+</div>
+{% endblock %}

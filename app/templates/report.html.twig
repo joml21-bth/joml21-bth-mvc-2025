@@ -1,0 +1,39 @@
+{# templates/lucky.html.twig #}
+
+{% extends "base.html.twig" %}
+
+{% block title %}Report{% endblock %}
+
+{% block body %}
+    <div class="content">
+        <h1>Report</h1>
+        <div class="col-container">
+        <div class="left-div row-container">
+        <span id="1"><h4>Kmom01</h4>none<br><br><br><br><br><br><br><br><br><br></span>
+        <span id="2"><h4>Kmom02</h4>none<br><br><br><br><br><br><br><br><br><br></span>
+        <span id="3"><h4>Kmom03</h4>none<br><br><br><br><br><br><br><br><br><br></span>
+        <span id="4"><h4>Kmom04</h4>none<br><br><br><br><br><br><br><br><br><br></span>
+        <span id="5"><h4>Kmom05</h4>none<br><br><br><br><br><br><br><br><br><br></span>
+        <span id="6"><h4>Kmom06</h4>none<br><br><br><br><br><br><br><br><br><br></span>
+        <span id="10"><h4>Kmom10</h4>none<br><br><br><br><br><br><br><br><br><br></span>
+
+        </div>
+        <div class="right-div">
+            <a class="nav-txt" href="{{ path('report') }}#1"><div class="rep-button">
+                Kmom01</div></a>
+            <a class="nav-txt" href="{{ path('report') }}#2"><div class="rep-button">
+                Kmom02</div></a>
+            <a class="nav-txt" href="{{ path('report') }}#3"><div class="rep-button">
+                Kmom03</div></a>
+            <a class="nav-txt" href="{{ path('report') }}#4"><div class="rep-button">
+                Kmom04</div></a>
+            <a class="nav-txt" href="{{ path('report') }}#5"><div class="rep-button">
+                Kmom05</div></a>
+            <a class="nav-txt" href="{{ path('report') }}#6"><div class="rep-button">
+                Kmom06</div></a>
+            <a class="nav-txt" href="{{ path('report') }}#10"><div class="rep-button">
+                Kmom10</div></a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
